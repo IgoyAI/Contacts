@@ -440,7 +440,8 @@ public class Contacts1 {
      *
      * @param person whose phone number you want
      */
-    private static String getPhoneFromPerson(String[] person) {
+    private static String
+    getPhoneFromPerson(String[] person) {
         return person[PERSON_DATA_INDEX_PHONE];
     }
 
